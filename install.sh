@@ -13,7 +13,7 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r Utama
-    git clone https://github.com/Shinnstar/Utama.git
+    git clone https://github.com/arzanoffc1/Utama.git
     cd Utama
     rm /var/www/pterodactyl/resources/scripts/Utama.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/putratzy11/Utama/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/arzanoffc1/Utama/main/repair.sh)
 }
 
 restoreBackUp(){
@@ -60,14 +60,14 @@ restoreBackUp(){
     yarn build:production
     sudo php artisan optimize:clear
 }
-echo "Wallpaper By BUMII"
-echo "INSTALL THEMA BY BUMII"
+echo "Wallpaper By Arzanoffc"
+echo "INSTALL THEMA BY Arzanoffc"
 
-echo "Wa: 6282130756675"
-echo "Instagram: @shinaya_xyn"
+echo "Wa: 62882006540998"
+echo "Instagram: @arzan_offc"
 
 echo "BUAT KAMU YANG BUTUH VPS MURAH & BERGARANSI LANGSUNG"
-echo "HUBUNGI NOMOR WHATSAPP BUMII DI ATAS INI"
+echo "HUBUNGI NOMOR WHATSAPP ARZAN DI ATAS INI"
 
 echo "[1] Install Thema Wallpaper"
 echo "[2] Restore backup"
